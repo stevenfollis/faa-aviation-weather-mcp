@@ -1,0 +1,27 @@
+{
+  "name": "faa-aviation-weather-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.8",
+    "typescript": "^5.8.3"
+  },
+  "type": "module",
+  "bin": {
+    "faa-aviation-wetaher": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 dist/index.js"
+  },
+  "files": [
+    "dist"
+  ]
+}
