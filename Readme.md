@@ -2,6 +2,8 @@
 
 This project is a TypeScript-based application that retrieves and formats METAR (aviation weather) reports for airports. It provides a tool to fetch and display weather data in a human-readable format.
 
+![demonstration](./media/screencap.gif)
+
 ## Features
 
 - Fetch METAR reports for one or more airports.
